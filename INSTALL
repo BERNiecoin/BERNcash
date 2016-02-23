@@ -1,0 +1,9 @@
+Building BERNcash
+
+See doc/readme-qt.rst for instructions on building BERNcash QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of BERNcashh.
+
+See doc/build-*.txt for instructions on building BERNcashd,
+the intended-for-services, no-graphical-interface, reference
+implementation of BERNcash.
