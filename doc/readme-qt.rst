@@ -20,7 +20,7 @@ Then we need to make sure our build environment is up to date. For Debian and Ub
 
 ::
 
-    apt-get install qt5-qmake libqt5-dev libqt5webkit5-dev build-essential libboost-dev libboost-system-dev \
+    sudo apt-get install qt5-qmake libqt5-dev libqt5webkit5-dev build-essential libboost-dev libboost-system-dev \
         libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
         libssl-dev libdb++-dev libminiupnpc-dev libminiupnpc8
 
