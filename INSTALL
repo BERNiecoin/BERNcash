@@ -1,0 +1,10 @@
+Building BERN
+
+See doc/readme-qt.rst for instructions on building BERN QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of BERNh.
+
+See doc/build-*.txt for instructions on building BERNd,
+the intended-for-services, no-graphical-interface, reference
+implementation of BERN.
+
