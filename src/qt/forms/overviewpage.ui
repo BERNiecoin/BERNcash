@@ -110,9 +110,6 @@
             <property name="toolTip">
              <string>Your current balance</string>
             </property>
-            <property name="styleSheet">
-             <string notr="true">color: #464747;</string>
-            </property>
             <property name="text">
              <string notr="true">0 BERN</string>
             </property>
@@ -123,9 +120,6 @@
           </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_6">
-            <property name="styleSheet">
-             <string notr="true">color: #464747;</string>
-            </property>
             <property name="text">
              <string>Stake:</string>
             </property>
@@ -145,9 +139,6 @@
             <property name="toolTip">
              <string>Total of coins that was staked, and do not yet count toward the current balance</string>
             </property>
-            <property name="styleSheet">
-             <string notr="true">color: #464747;</string>
-            </property>
             <property name="text">
              <string notr="true">0 BERN</string>
             </property>
@@ -158,9 +149,6 @@
           </item>
           <item row="2" column="0">
            <widget class="QLabel" name="label_3">
-            <property name="styleSheet">
-             <string notr="true">color: #464747;</string>
-            </property>
             <property name="text">
              <string>Unconfirmed:</string>
             </property>
@@ -180,9 +168,6 @@
             <property name="toolTip">
              <string>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</string>
             </property>
-            <property name="styleSheet">
-             <string notr="true">color: #464747;</string>
-            </property>
             <property name="text">
              <string notr="true">0 BERN</string>
             </property>
@@ -193,9 +178,6 @@
           </item>
           <item row="3" column="0">
            <widget class="QLabel" name="labelImmatureText">
-            <property name="styleSheet">
-             <string notr="true">color: #464747;</string>
-            </property>
             <property name="text">
              <string>Immature:</string>
             </property>
@@ -212,9 +194,6 @@
             <property name="toolTip">
              <string>Mined balance that has not yet matured</string>
             </property>
-            <property name="styleSheet">
-             <string notr="true">color: #464747;</string>
-            </property>
             <property name="text">
              <string notr="true">0 BERN</string>
             </property>
@@ -225,9 +204,6 @@
           </item>
           <item row="4" column="0">
            <widget class="QLabel" name="label_2">
-            <property name="styleSheet">
-             <string notr="true">color: #464747;</string>
-            </property>
             <property name="text">
              <string>Number of transactions:</string>
             </property>
@@ -237,9 +213,6 @@
            <widget class="QLabel" name="labelNumTransactions">
             <property name="toolTip">
              <string>Total number of transactions in wallet</string>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color: #464747;</string>
             </property>
             <property name="text">
              <string notr="true">0</string>
