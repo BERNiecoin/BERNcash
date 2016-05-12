@@ -453,24 +453,6 @@
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;* PoS will always be 10% Annual. &lt;br/&gt;24 hour minimum, 4 year maximum stake age.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
-     <widget class="QLabel" name="phaselbl5_3">
-      <property name="geometry">
-       <rect>
-        <x>130</x>
-        <y>50</y>
-        <width>171</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>9</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;(Bold&lt;/b&gt; denotes current phase.)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
     </widget>
    </item>
    <item row="1" column="1">
