@@ -65,7 +65,7 @@
 #include <QUrl>
 #else
 #include <QUrlQuery>
-#include <QtWebKitWidgets>
+#include <QMimeData>
 #endif
 #include <QStyle>
 
