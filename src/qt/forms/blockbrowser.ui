@@ -80,11 +80,20 @@
        </item>
        <item row="12" column="1">
         <widget class="QPushButton" name="txButton">
+         <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
          <property name="font">
           <font>
            <weight>75</weight>
            <bold>true</bold>
           </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:#333333; color:#cecece;</string>
          </property>
          <property name="text">
           <string>TX Information</string>
@@ -377,6 +386,12 @@
            <height>0</height>
           </size>
          </property>
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>35</height>
+          </size>
+         </property>
          <property name="maximumSize">
           <size>
            <width>16777215</width>
@@ -388,6 +403,9 @@
            <weight>75</weight>
            <bold>true</bold>
           </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:#333333; color:#cecece;</string>
          </property>
          <property name="text">
           <string>Jump to Block</string>
