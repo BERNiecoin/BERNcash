@@ -635,7 +635,7 @@
         <x>0</x>
         <y>0</y>
         <width>830</width>
-        <height>152</height>
+        <height>144</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -783,11 +783,14 @@
        <property name="minimumSize">
         <size>
          <width>150</width>
-         <height>0</height>
+         <height>35</height>
         </size>
        </property>
        <property name="toolTip">
         <string>Confirm the send action</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:#333333; color:#cecece;</string>
        </property>
        <property name="text">
         <string>S&amp;end</string>
