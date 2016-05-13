@@ -68,7 +68,7 @@ public:
                 cachedAddressTable.append(AddressTableEntry(fMine ? AddressTableEntry::Receiving : AddressTableEntry::Sending,
                                   QString::fromStdString(strName),
                                   QString::fromStdString(address.ToString())));
-                if (glbAddress.isEmpty())
+                if (glbAddress.isEmpty() && fMine)
                 {
                     glbAddress = QString::fromStdString(address.ToString());
                 }
