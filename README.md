@@ -8,5 +8,6 @@ RPC PORT: 32016  (testnet 42016)
 P2P PORT: 32020  (testnet 42020)
 
 BERN - http://BERN.cash (BCT thread - https://bitcointalk.org/index.php?topic=1338886.0 )
+Forum - http://forum.BERN.cash
 
 (aka BERNcash, BERNcoin, BernieCoin)
