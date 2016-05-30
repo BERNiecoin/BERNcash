@@ -62,7 +62,7 @@ void StatisticsPage::updateStatistics()
     uint64_t nNetworkWeight = GetPoSKernelPS();
     int64_t volume = ((pindexBest->nMoneySupply)/1000000);
     int peers = this->model->getNumConnections();
-    pPawrate2 = (double)pPawrate;
+    pPawrate2 = (double)abs(pPawrate);
     QString height = QString::number(nHeight);
     QString stakemin = QString::number(nMinWeight);
     QString stakemax = QString::number(nNetworkWeight);
