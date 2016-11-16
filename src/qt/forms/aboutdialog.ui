@@ -95,7 +95,7 @@
 Copyright © 2009-2012 Bitcoin Developers
 Copyright © 2012 PPCoin Developers
 Copyright © 2014 SoleCoin Developers
-Copyright © 2016 BERN Developers</string>
+Copyright © 2016-2017 BERN Developers</string>
        </property>
        <property name="textInteractionFlags">
         <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
