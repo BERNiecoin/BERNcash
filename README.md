@@ -1,5 +1,5 @@
-BERN v1.2
-=========
+BERN v1.2.1
+===========
 
 BERN (c) copyright 2016-2017 BERN Developer Steven Saxton (berniecoindev@gmail.com)
 
@@ -11,3 +11,4 @@ BERN - http://BERN.cash (BCT thread - https://bitcointalk.org/index.php?topic=13
 Forum - http://forum.BERN.cash
 
 (aka BERNcash, BERNcoin, BernieCoin)
+#rEVOLution
