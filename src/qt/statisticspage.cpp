@@ -57,7 +57,7 @@ void StatisticsPage::updateStatistics()
     else
         nSubsidy = 250;
 
-    uint64_t nMinWeight = 0, nMaxWeight = 0, nWeight = 0;
+    uint64 nMinWeight = 0, nMaxWeight = 0, nWeight = 0;
     pwalletMain->GetStakeWeight(*pwalletMain, nMinWeight, nMaxWeight, nWeight);
     uint64_t nNetworkWeight = GetPoSKernelPS();
     int64_t volume = ((pindexBest->nMoneySupply)/1000000);
