@@ -1,12 +1,12 @@
 TEMPLATE = app
 TARGET = BERN-qt
-VERSION = 1.2.0.0
+VERSION = 1.2.1.0
 INCLUDEPATH += src src/json src/qt
 QT += core gui network 
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE BOOST_THREAD_PROVIDES_GENERIC_SHARED_MUTEX_ON_WIN USE_IPV6 __NO_SYSTEM_INCLUDES
 CONFIG += no_include_pwd
 CONFIG += thread static
-greaterThan(QT_MAJOR_VERSION, 4): QT += printsupport webkitwidgets
+greaterThan(QT_MAJOR_VERSION, 4): QT += printsupport
 lessThan(QT_MAJOR_VERSION, 5): CONFIG += static
 QMAKE_CXXFLAGS = -fpermissive
 
