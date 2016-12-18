@@ -161,7 +161,7 @@ void StatisticsPage::updateStatistics()
     }
     updatePrevious(nHeight, nMinWeight, nNetworkWeight, nSubsidy, pHardness, pHardness2, pPawrate2, Qlpawrate, peers, volume);
 
-    if (pindexBest->nHeight < 7200001)
+    if (pindexBest->nHeight < 720001)
     {
         int daysLeft =(720000 - nHeight) / (1440 * 2);
         ui->phaselbl1->setText(QString("<b>Block 2 -> 720000 : PoW (250 BERN) & PoS</b><br/>Approximately %1 days remain." ).arg(daysLeft));
