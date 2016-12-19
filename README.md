@@ -1,4 +1,4 @@
-BERN v1.2.1
+BERN v1.2.2
 ===========
 
 BERN (c) copyright 2016-2017 BERN Developer Steven Saxton (berniecoindev@gmail.com)
