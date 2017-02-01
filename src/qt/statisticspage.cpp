@@ -53,7 +53,7 @@ void StatisticsPage::updateStatistics()
     else if (pindexBest->nHeight > 3875760)
         nSubsidy = 100;
     else if (pindexBest->nHeight > 720000)
-        nSubsidy = 10;
+        nSubsidy = 25;
     else
         nSubsidy = 250;
 
@@ -172,10 +172,10 @@ void StatisticsPage::updateStatistics()
     if (pindexBest->nHeight > 720000 && pindexBest->nHeight < 3875761)
     {
         int daysLeft =((3875760 - 720000) - (nHeight - 720000)) / (1440 * 2);
-        ui->phaselbl2->setText(QString("<b>Block 720001 -> 3875760 : PoW (10 BERN)  & PoS</b><br/>Approximately %1 days remain." ).arg(daysLeft));
+        ui->phaselbl2->setText(QString("<b>Block 720001 -> 3875760 : PoW (25 BERN)  & PoS</b><br/>Approximately %1 days remain." ).arg(daysLeft));
     }
     else
-        ui->phaselbl2->setText("Block 720001 -> 3875760 : PoW (10 BERN)  & PoS");
+        ui->phaselbl2->setText("Block 720001 -> 3875760 : PoW (25 BERN)  & PoS");
     if (pindexBest->nHeight > 3875760 && pindexBest->nHeight < 4927681)
     {
         int daysLeft =((4927680 - 3875760) - (nHeight - 3875760)) / (1440 * 2);
