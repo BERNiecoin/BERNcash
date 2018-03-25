@@ -1,7 +1,7 @@
 BERN v1.2.4
 ===========
 
-BERN (c) copyright 2016-2018 Steven Saxton (berniecoindev@gmail.com)
+BERN (c) copyright 2016-2018 berniecoindev@gmail.com
 
 X14 PoW/PoS hybrid
 RPC PORT: 32016  (testnet 42016)
