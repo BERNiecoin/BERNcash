@@ -391,8 +391,8 @@ void MiningPage::typeChanged(int index)
     if (index == 0)  // Easy Mining
     {
         enablePoolMiningControls(false);
-        ui->passwordLine->setText("x");
-        ui->serverLine->setText("stratum+tcp://yiimp.ccminer.org");
+        ui->passwordLine->setText("c=BERN");
+        ui->serverLine->setText("stratum+tcp://x14.mine.zpool.ca");
         ui->portLine->setText("3933");
         ui->usernameLine->setText(glbAddress);
         //}
