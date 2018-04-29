@@ -116,7 +116,7 @@ T* alignup(T* p)
 #endif
 #else
 #define MAX_PATH            1024
-inline void Sleep(int64 n)
+inline void MilliSleep(int64 n)
 {
     /*Boost has a year 2038 problem— if the request sleep time is past epoch+2^31 seconds the sleep returns instantly.
       So we clamp our sleeps here to 10 years and hope that boost is fixed by 2028.*/

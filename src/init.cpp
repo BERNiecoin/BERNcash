@@ -35,7 +35,7 @@ CClientUIInterface uiInterface;
 void ExitTimeout(void* parg)
 {
 #ifdef WIN32
-    Sleep(5000);
+    MilliSleep(5000);
     ExitProcess(0);
 #endif
 }
@@ -80,7 +80,7 @@ void Shutdown(void* parg)
         UnregisterWallet(pwalletMain);
         delete pwalletMain;
         NewThread(ExitTimeout, NULL);
-        Sleep(50);
+        MilliSleep(50);
         printf("BERN exited\n\n");
         fExit = true;
 #ifndef QT_GUI
@@ -91,8 +91,8 @@ void Shutdown(void* parg)
     else
     {
         while (!fExit)
-            Sleep(500);
-        Sleep(100);
+            MilliSleep(500);
+        MilliSleep(100);
         ExitThread(0);
     }
 }
@@ -892,7 +892,7 @@ bool AppInit2()
     // Loop until process is exit()ed from shutdown() function,
     // called from ThreadRPCServer thread when a "stop" command is received.
     while (1)
-        Sleep(5000);
+        MilliSleep(5000);
 #endif
 
     return true;
