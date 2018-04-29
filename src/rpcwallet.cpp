@@ -1377,12 +1377,12 @@ void ThreadCleanWalletPassphrase(void* parg)
         {
             if (nWalletUnlockTime==0)
                 break;
-            int64 nToSleep = nWalletUnlockTime - GetTimeMillis();
-            if (nToSleep <= 0)
+            int64 nToMilliSleep = nWalletUnlockTime - GetTimeMillis();
+            if (nToMilliSleep <= 0)
                 break;
 
             LEAVE_CRITICAL_SECTION(cs_nWalletUnlockTime);
-            Sleep(nToSleep);
+            MilliSleep(nToMilliSleep);
             ENTER_CRITICAL_SECTION(cs_nWalletUnlockTime);
 
         } while(1);
@@ -1436,8 +1436,8 @@ Value walletpassphrase(const Array& params, bool fHelp)
             "Stores the wallet decryption key in memory for <timeout> seconds.");
 
     NewThread(ThreadTopUpKeyPool, NULL);
-    int64* pnSleepTime = new int64(params[1].get_int64());
-    NewThread(ThreadCleanWalletPassphrase, pnSleepTime);
+    int64* pnMilliSleepTime = new int64(params[1].get_int64());
+    NewThread(ThreadCleanWalletPassphrase, pnMilliSleepTime);
 
     // ppcoin: if user OS account compromised prevent trivial sendmoney commands
     if (params.size() > 2)
