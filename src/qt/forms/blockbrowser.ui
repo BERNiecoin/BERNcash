@@ -454,7 +454,16 @@
        <item row="18" column="1">
         <widget class="QLabel" name="label">
          <property name="text">
-          <string>Please visit the online explorer for more details. http://transactions.bern.cash</string>
+          <string>Please visit the online explorer for more details. &lt;a href=&quot;http://transactions.bern.cash&quot;&gt;http://transactions.bern.cash&lt;/a&gt;</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::RichText</enum>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
          </property>
         </widget>
        </item>
