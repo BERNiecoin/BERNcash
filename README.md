@@ -1,4 +1,4 @@
-BERN v1.2.6.1
+BERN v1.3.0.0
 =============
 
 BERN (c) copyright 2016-2018 BernieCoinDev@gmail.com

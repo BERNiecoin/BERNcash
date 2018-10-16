@@ -76,16 +76,19 @@
          <property name="alignment">
           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
          </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+         </property>
         </widget>
        </item>
        <item row="12" column="1">
         <widget class="QPushButton" name="txButton">
          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>35</height>
-           </size>
-          </property>
+          <size>
+           <width>0</width>
+           <height>35</height>
+          </size>
+         </property>
          <property name="font">
           <font>
            <weight>75</weight>
@@ -131,6 +134,9 @@
          <property name="text">
           <string>0000 KH/s</string>
          </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+         </property>
         </widget>
        </item>
        <item row="14" column="0">
@@ -152,6 +158,9 @@
          <property name="text">
           <string>0.00</string>
          </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+         </property>
         </widget>
        </item>
        <item row="13" column="1">
@@ -159,12 +168,18 @@
          <property name="text">
           <string>000</string>
          </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+         </property>
         </widget>
        </item>
        <item row="14" column="1">
         <widget class="QLabel" name="valueBox">
          <property name="text">
           <string/>
+         </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
          </property>
         </widget>
        </item>
@@ -203,6 +218,9 @@
          <property name="text">
           <string>0</string>
          </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+         </property>
         </widget>
        </item>
        <item row="5" column="0">
@@ -223,6 +241,9 @@
         <widget class="QLabel" name="feesBox">
          <property name="text">
           <string/>
+         </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
          </property>
         </widget>
        </item>
@@ -250,6 +271,9 @@
          <property name="text">
           <string>0</string>
          </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+         </property>
         </widget>
        </item>
        <item row="15" column="0">
@@ -271,6 +295,9 @@
          <property name="text">
           <string>0</string>
          </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+         </property>
         </widget>
        </item>
        <item row="5" column="1">
@@ -283,6 +310,9 @@
          </property>
          <property name="text">
           <string>0x0</string>
+         </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
          </property>
         </widget>
        </item>
@@ -304,6 +334,9 @@
          <property name="alignment">
           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
          </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+         </property>
         </widget>
        </item>
        <item row="6" column="0">
@@ -317,6 +350,9 @@
         <widget class="QLabel" name="nonceBox">
          <property name="text">
           <string>0</string>
+         </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
          </property>
         </widget>
        </item>
@@ -346,6 +382,9 @@
          </property>
          <property name="text">
           <string>0x0</string>
+         </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
          </property>
         </widget>
        </item>
@@ -380,12 +419,6 @@
        </item>
        <item row="1" column="1">
         <widget class="QPushButton" name="blockButton">
-         <property name="minimumSize">
-          <size>
-           <width>300</width>
-           <height>0</height>
-          </size>
-         </property>
          <property name="minimumSize">
           <size>
            <width>300</width>
