@@ -1,3 +1,6 @@
+![Alt text](src/qt/res/images/wallet.png)
+
+
 BERN v1.3.0.0
 =============
 
@@ -10,4 +13,4 @@ P2P PORT: 32020  (testnet 42020)
 BERN - http://BERN.cash  (BCT thread - https://bitcointalk.org/index.php?topic=1338886.0 )
 
 (aka BernieCoin, BERNcoin, BERNcash)
-#NotMeUS #rEVOLution
+#NotMeUS #rEVOLution #BernieWouldHaveWon
