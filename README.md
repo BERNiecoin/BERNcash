@@ -4,7 +4,7 @@
 BERN v1.3.0.0
 =============
 
-BERN (c) copyright 2016-2018 BernieCoinDev@gmail.com
+BERN (c) copyright 2016-2020 BernieCoinDev@gmail.com
 
 X14 PoW/PoS hybrid
 RPC PORT: 32016  (testnet 42016)
@@ -14,3 +14,4 @@ BERN - http://BERN.cash  (BCT thread - https://bitcointalk.org/index.php?topic=1
 
 (aka BernieCoin, BERNcoin, BERNcash)
 #NotMeUS #rEVOLution #BernieWouldHaveWon
+#Bernie2020 #HindsightIs2020
