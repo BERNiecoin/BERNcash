@@ -1,7 +1,7 @@
 ![Alt text](src/qt/res/images/wallet.png)
 
 
-BERN v1.3.0.0
+BERN v1.3.1.0
 =============
 
 BERN (c) copyright 2016-2020 BernieCoinDev@gmail.com
